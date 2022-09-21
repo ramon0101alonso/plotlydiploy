@@ -162,3 +162,5 @@ function buildCharts(sample) {
       height: 425,
       margin: { t: 0, b: 0 }
     };
+    Plotly.newPlot("gauge", gaugeData, gaugeLayout);
+  })}
